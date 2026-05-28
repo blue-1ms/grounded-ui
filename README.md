@@ -12,17 +12,19 @@ Grounded UI helps AI coding agents design and review SaaS apps, admin dashboards
 
 ## Install
 
-### Recommended
+### Recommended: project install
+
+Run this from the project where you want Grounded UI available:
 
 ```bash
 npx skills add blue-1ms/grounded-ui
 ```
 
-Restart Codex after installing so the new skill is picked up.
+The skills CLI installs the skill into the current project's agent skill directory. Restart your AI coding agent after installing so the new skill is picked up.
 
-### Codex fallback
+### Codex fallback: global install
 
-If you want a direct Codex install or update without the skills CLI:
+If you want a direct global Codex install or update without the skills CLI:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/blue-1ms/grounded-ui/main/install.sh | bash
