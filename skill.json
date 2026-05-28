@@ -1,0 +1,25 @@
+{
+  "name": "grounded-ui",
+  "displayName": "Grounded UI",
+  "description": "A Codex skill for grounded, durable product interfaces designed around real work instead of generated decoration.",
+  "version": "0.1.0",
+  "author": "blue-1ms",
+  "license": "MIT",
+  "homepage": "https://github.com/blue-1ms/grounded-ui",
+  "repository": "https://github.com/blue-1ms/grounded-ui",
+  "keywords": [
+    "ui",
+    "ux",
+    "product-design",
+    "frontend",
+    "dashboard",
+    "internal-tools",
+    "ai-skill",
+    "codex"
+  ],
+  "platforms": [
+    "codex",
+    "claude"
+  ],
+  "install": "npx skills add blue-1ms/grounded-ui"
+}

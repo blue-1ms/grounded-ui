@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grounded UI"
+  short_description: "Durable UI guidance for product tools"
+  default_prompt: "Use $grounded-ui to design or refine a focused product interface."
